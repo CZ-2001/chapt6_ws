@@ -1,4 +1,5 @@
 /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/launch/display_robot.launch.py
+/home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/my_robo.xacro
 /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/my_robo.gv
 /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/my_robo.urdf
 /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/my_robo.pdf

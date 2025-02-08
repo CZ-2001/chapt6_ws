@@ -15,13 +15,11 @@ def generate_launch_description():
         default_value=defa_urdf_path,
         description='加载的模型文件路径'
     )
-
-    # 直接读取URDF文件内容
-    with open(defa_urdf_path, 'r') as file:
-        urdf_content = file.read()
-
-    rob_describle_value = launch_ros.parameter_descriptions.ParameterValue(urdf_content, value_type=str)
-
+    #'cat ' 看清楚 cat 后面有个空格 空格在引号里面
+   # 通过文件路径，获取内容，并转变成参数值对象，以供传入 robot_state_publisher
+    model_path = launch.substitutions.LaunchConfiguration('model')
+    sub_command_result = launch.substitutions.Command(['xacro ', model_path])
+    rob_describle_value = launch_ros.parameter_descriptions.ParameterValue(sub_command_result, value_type=str)
     # 状态发布节点
     action_rob_state_pub = launch_ros.actions.Node(
         package='robot_state_publisher',
@@ -39,7 +37,7 @@ def generate_launch_description():
     action_rviz2_node = launch_ros.actions.Node(
         package='rviz2',
         executable='rviz2',
-        arguments=['-d',defa_rviz2_config_path] #相当于在命令行后加东西
+       # arguments=['-d',defa_rviz2_config_path] #相当于在命令行后加东西
     )
 
     return launch.LaunchDescription([
@@ -48,3 +46,12 @@ def generate_launch_description():
         action_joint_state_pub,
         action_rviz2_node
     ])
+    
+    
+    
+    
+    
+    
+    
+    
+    
