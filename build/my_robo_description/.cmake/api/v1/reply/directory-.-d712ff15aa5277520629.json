@@ -230,7 +230,8 @@
 			"paths" : 
 			[
 				"launch",
-				"URDF"
+				"URDF",
+				"config"
 			],
 			"type" : "directory"
 		},

@@ -46,6 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robo_description" TYPE DIRECTORY FILES
     "/home/ubuntu/chapt6/chapt6_ws/src/my_robo_description/launch"
     "/home/ubuntu/chapt6/chapt6_ws/src/my_robo_description/URDF"
+    "/home/ubuntu/chapt6/chapt6_ws/src/my_robo_description/config"
     )
 endif()
 
