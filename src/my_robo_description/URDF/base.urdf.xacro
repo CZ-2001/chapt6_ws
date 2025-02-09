@@ -2,6 +2,11 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
     <!-- 定义 base_link 宏 -->
     <xacro:macro name="base_xacro" params="length radius">
+        <!--机器人的影子-->
+        <link name="base_foot_print_yingzi" />
+            
+       
+
         <!-- 机器人的身体部分 -->
         <link name="base_link">
             <!-- 部件的外观描述 -->
@@ -20,5 +25,13 @@
                 </material>
             </visual>
         </link>
+        <joint name="base_joint" type="fixed">
+            <origin xyz="0.0 0.0 ${length/2.0+0.032-0.001}" rpy="0.0 0.0 0.0"/>
+            <parent link="base_foot_print_yingzi"/>
+            <child link="base_link"/>
+        </joint>
+
+
+
     </xacro:macro>
 </robot>
