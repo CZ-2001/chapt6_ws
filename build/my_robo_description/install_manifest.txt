@@ -5,6 +5,8 @@
 /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/my_robo.xacro
 /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/my_robo.gv
 /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/my_robo.urdf
+/home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/body_/wheel_wangxianglun.urdf.xacro
+/home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/body_/wheel.urdf.xacro
 /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/base.urdf.xacro
 /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/ano_robo.urdf.xacro
 /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/my_robo.pdf
