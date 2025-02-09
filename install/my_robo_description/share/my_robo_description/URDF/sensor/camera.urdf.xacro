@@ -19,6 +19,20 @@
                     <color rgba="1.0 0.0 0.0 0.5"/>
                 </material>
             </visual>
+            <collision>
+                 <!-- 沿着自己几何中心的偏移旋转量 -->
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <!-- 几何形状 -->
+                <geometry>
+                    <!-- box 自己自动生成的 正方体 -->
+                    <box size="0.02 0.02 0.02"/>
+                </geometry>
+                <!-- 材质 颜色描述 -->
+                <material name="red">
+                    <!-- 设置透明为 0.5 -->
+                    <color rgba="1.0 0.0 0.0 0.5"/>
+                </material>
+            </collision>
         </link>
         <!-- 机器人的关节 用于组合机器人的部件 -->
         <joint name="camera_joint" type="fixed">

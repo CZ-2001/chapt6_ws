@@ -4,9 +4,7 @@
     <xacro:macro name="base_xacro" params="length radius">
         <!--机器人的影子-->
         <link name="base_foot_print_yingzi" />
-            
-       
-
+        
         <!-- 机器人的身体部分 -->
         <link name="base_link">
             <!-- 部件的外观描述 -->
@@ -24,6 +22,23 @@
                     <color rgba="1.0 1.0 1.0 0.5"/>
                 </material>
             </visual>
+
+            <collision>
+                 <!-- 沿着自己几何中心的偏移旋转量 -->
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <!-- 几何形状 -->
+                <geometry>
+                    <!-- 圆柱体 半径0.1 高度 0.12 -->
+                    <cylinder radius="${radius}" length="${length}"/>
+                </geometry>
+                <!-- 材质 颜色描述 -->
+                <material name="white">
+                    <!-- 设置透明为 0.5 -->
+                    <color rgba="1.0 1.0 1.0 0.5"/>
+                </material>
+            </collision>
+
+
         </link>
         <joint name="base_joint" type="fixed">
             <origin xyz="0.0 0.0 ${length/2.0+0.032-0.001}" rpy="0.0 0.0 0.0"/>

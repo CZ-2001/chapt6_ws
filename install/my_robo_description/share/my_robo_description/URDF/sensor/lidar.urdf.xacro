@@ -18,6 +18,21 @@
                     <color rgba="1.0 0.2 0.0 0.8"/>
                 </material>
             </visual>
+            <!--增加碰撞属性-->
+            <collision>
+                <!-- 沿着自己几何中心的偏移旋转量 -->
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <!-- 几何形状 -->
+                <geometry>
+                    <!-- box 自己自动生成的 正方体 -->
+                    <cylinder radius="0.01" length="0.10"/>
+                </geometry>
+                <!-- 材质 颜色描述 -->
+                <material name="green">
+                    <!-- 设置透明为 0.5 -->
+                    <color rgba="1.0 0.2 0.0 0.8"/>
+                </material>
+            </collision>
         </link>
 
 
@@ -38,6 +53,23 @@
                     <color rgba="1.0 0.0 0.0 1.0"/>
                 </material>
             </visual>
+            <!--增加碰撞属性-->
+            <collision>
+                <!-- 沿着自己几何中心的偏移旋转量 -->
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <!-- 几何形状 -->
+                <geometry>
+                    <!-- box 自己自动生成的 正方体 -->
+                    <cylinder radius="0.02" length="0.02"/>
+                </geometry>
+                <!-- 材质 颜色描述 -->
+                <material name="yellow">
+                    <!-- 设置透明为 0.5 -->
+                    <color rgba="1.0 0.0 0.0 1.0"/>
+                </material>
+            </collision>
+
+
         </link>
         
         <!-- 机器人的关节 用于组合机器人的部件 -->
