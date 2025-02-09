@@ -1,0 +1,35 @@
+[0.051s] Invoking command in '/home/ubuntu/chapt6/chapt6_ws/build/my_robo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/chapt6/chapt6_ws/build/my_robo_description -- -j2 -l2
+[0.242s] Invoked command in '/home/ubuntu/chapt6/chapt6_ws/build/my_robo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/chapt6/chapt6_ws/build/my_robo_description -- -j2 -l2
+[0.274s] Invoking command in '/home/ubuntu/chapt6/chapt6_ws/build/my_robo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/chapt6/chapt6_ws/build/my_robo_description
+[0.308s] -- Install configuration: ""
+[0.309s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/launch
+[0.309s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/launch/display_robot.launch.py
+[0.309s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF
+[0.310s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/sensor
+[0.311s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/sensor/imu.urdf.xacro
+[0.311s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/sensor/lidar.urdf.xacro
+[0.311s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/sensor/camera.urdf.xacro
+[0.311s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/my_robo.xacro
+[0.311s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/my_robo.gv
+[0.311s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/my_robo.urdf
+[0.311s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/base.urdf.xacro
+[0.311s] -- Installing: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/ano_robo.urdf.xacro
+[0.312s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/URDF/my_robo.pdf
+[0.312s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/config
+[0.313s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/config/display_robot_model.rviz
+[0.313s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/ament_index/resource_index/package_run_dependencies/my_robo_description
+[0.313s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/ament_index/resource_index/parent_prefix_path/my_robo_description
+[0.313s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/environment/ament_prefix_path.sh
+[0.313s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/environment/ament_prefix_path.dsv
+[0.314s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/environment/path.sh
+[0.314s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/environment/path.dsv
+[0.314s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/local_setup.bash
+[0.314s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/local_setup.sh
+[0.314s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/local_setup.zsh
+[0.315s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/local_setup.dsv
+[0.315s] -- Installing: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/package.dsv
+[0.315s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/ament_index/resource_index/packages/my_robo_description
+[0.315s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/cmake/my_robo_descriptionConfig.cmake
+[0.315s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/cmake/my_robo_descriptionConfig-version.cmake
+[0.315s] -- Up-to-date: /home/ubuntu/chapt6/chapt6_ws/install/my_robo_description/share/my_robo_description/package.xml
+[0.325s] Invoked command in '/home/ubuntu/chapt6/chapt6_ws/build/my_robo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/chapt6/chapt6_ws/build/my_robo_description

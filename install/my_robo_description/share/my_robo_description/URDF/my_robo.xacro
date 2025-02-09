@@ -56,4 +56,6 @@
     <!-- 调用 imu_link 宏 -->
     <xacro:imu_link imu_name="imu_up" xyz="0 0 0.03"/>
     <xacro:imu_link imu_name="imu_down" xyz="0 0 -0.03"/>
+    <xacro:imu_link imu_name="imu_up2" xyz="0 0 0.08"/>
+    <xacro:imu_link imu_name="imu_down2" xyz="0 0 -0.08"/>
 </robot>
